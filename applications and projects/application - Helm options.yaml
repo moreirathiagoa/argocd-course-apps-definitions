@@ -13,7 +13,7 @@ spec:
     repoURL: "https://github.com/moreirathiagoa/argocd-example-apps.git"
     targetRevision: master
     helm:
-     releaseName: my-release
+     releaseName: my-release-2
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
