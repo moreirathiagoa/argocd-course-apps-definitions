@@ -12,10 +12,6 @@ spec:
     path: kustomize-guestbook
     repoURL: "https://github.com/mabusaa/argocd-example-apps.git"
     targetRevision: master
-    kustomize:
-      namePrefix: staging-
-      commonLabels:
-        app: demo
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
